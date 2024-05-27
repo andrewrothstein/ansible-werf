@@ -1,0 +1,9 @@
+---
+# vars file for werf
+werf_os: '{{ ansible_system | lower }}'
+werf_arch: '{{ werf_arch_map[ansible_architecture] }}'
+werf_platform: '{{ werf_os }}-{{ werf_arch }}'
+werf_url: '{{ werf_mirror }}/{{ werf_ver }}/{{ werf_platform }}/bin/werf{{ werf_dotexe | default("") }}'
+werf_exe: '{{ werf_install_dir }}/werf-{{ werf_ver }}-{{ werf_platform }}{{ werf_dotexe | default("") }}'
+werf_link: '{{ werf_install_dir }}/werf{{ werf_dotexe | default("") }}'
+werf_checksum: '{{ werf_checksums[werf_ver][werf_platform] }}'

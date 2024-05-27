@@ -1,0 +1,14 @@
+---
+- name: Testing andrewrothstein.werf role
+  hosts: all
+  tasks:
+    - name: Installing andrewrothstein.werf
+      ansible.builtin.include_role:
+        name: '{{ playbook_dir }}'
+    - name: Executing 'werf version'
+      ansible.builtin.command: werf version
+      changed_when: false
+      register: 'werf_test_output'
+    - name: Output from 'werf version'
+      ansible.builtin.debug:
+        msg: '{{ werf_test_output.stdout }}'
