@@ -1,6 +1,6 @@
 ---
 # defaults file for werf
-werf_ver: 2.10.6
+werf_ver: 2.10.10
 werf_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -64,3 +64,25 @@ werf_checksums:
     linux-arm64: sha256:32814a855d5512e9bba82472bfa96dd301c553580ce7eb0ae5b783650c440da3
     # https://tuf.werf.io/targets/releases/2.10.6/windows-amd64/bin/werf.exe
     windows-amd64: sha256:7ddd04019d0c917dae177f26c2c5e219f337047b6641cb795ce08d13f739efc6
+  '2.10.9':
+    # https://tuf.werf.io/targets/releases/2.10.9/darwin-amd64/bin/werf
+    darwin-amd64: sha256:985f327a7567332a4e0df462e361c6fd2383431ac4f63cde842217bcc0c5682e
+    # https://tuf.werf.io/targets/releases/2.10.9/darwin-arm64/bin/werf
+    darwin-arm64: sha256:82b4ad2ff7e496852ad6b82f2f0df95ad8402675b556a5ad505bedfe4ccb78fc
+    # https://tuf.werf.io/targets/releases/2.10.9/linux-amd64/bin/werf
+    linux-amd64: sha256:ebd7cd5c6a8a22801cca3b76cad9e612615228963b370f77f718dd06965d8232
+    # https://tuf.werf.io/targets/releases/2.10.9/linux-arm64/bin/werf
+    linux-arm64: sha256:4c7c68ed99a6f78f368ac7924d2ef560caf56efdf62ca0c49d0cd751169df11e
+    # https://tuf.werf.io/targets/releases/2.10.9/windows-amd64/bin/werf.exe
+    windows-amd64: sha256:e7418c1fa2d0d0c13ef185f987070542827b4ed942d61c77f48d2338276365c6
+  '2.10.10':
+    # https://tuf.werf.io/targets/releases/2.10.10/darwin-amd64/bin/werf
+    darwin-amd64: sha256:f09d74b534c1ab9ef29eaa11ae695fbac4382cbd59279f75337deeb5aa95b247
+    # https://tuf.werf.io/targets/releases/2.10.10/darwin-arm64/bin/werf
+    darwin-arm64: sha256:400e6e713db7b4e427bab74d2690100c9d83f154797faf1dc07d4118d6b93d07
+    # https://tuf.werf.io/targets/releases/2.10.10/linux-amd64/bin/werf
+    linux-amd64: sha256:2a5d4e24a601537a03a4d701b1e3b91e41e5459b40491bac7b7415f47cab3e1b
+    # https://tuf.werf.io/targets/releases/2.10.10/linux-arm64/bin/werf
+    linux-arm64: sha256:c95bcb5bc0837b7f245c5c5e0ee18399661d6ee52a623c5b05a4ad8e1df50417
+    # https://tuf.werf.io/targets/releases/2.10.10/windows-amd64/bin/werf.exe
+    windows-amd64: sha256:535fbcdb0df3ae995013094d4a66755c11202a293e7a35504f5118d1635219a7
