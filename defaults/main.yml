@@ -1,6 +1,6 @@
 ---
 # defaults file for werf
-werf_ver: 2.12.1
+werf_ver: 2.13.0
 werf_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -108,3 +108,14 @@ werf_checksums:
     linux-arm64: sha256:a4b4f671e84e0e3f7bd84d2547e6df558afd588d6c34851cc346907f020486d5
     # https://tuf.werf.io/targets/releases/2.12.1/windows-amd64/bin/werf.exe
     windows-amd64: sha256:935cc87bc495bbb19f6cc92b2f295e621aff97097e016b6ee954ebfe763192a4
+  '2.13.0':
+    # https://tuf.werf.io/targets/releases/2.13.0/darwin-amd64/bin/werf
+    darwin-amd64: sha256:a2cae8260446efba34a71d328fb7139d4890dc7ff854f0c7fd3a2d75f45cd209
+    # https://tuf.werf.io/targets/releases/2.13.0/darwin-arm64/bin/werf
+    darwin-arm64: sha256:d619fcd0b2d760aa57566f75099d38bb1b2e20f8429c07989771e8fe33e7f889
+    # https://tuf.werf.io/targets/releases/2.13.0/linux-amd64/bin/werf
+    linux-amd64: sha256:9acb18a3588b563d2eaa3a0f5847e2c907e770f96bcf370f96e625b0fd1a1432
+    # https://tuf.werf.io/targets/releases/2.13.0/linux-arm64/bin/werf
+    linux-arm64: sha256:2daffc02e6c1a83f8286b7f2cb8bb8b12c2505c37fa0c7c50b3bf7a8dadeea91
+    # https://tuf.werf.io/targets/releases/2.13.0/windows-amd64/bin/werf.exe
+    windows-amd64: sha256:2e7c9ce1fb965dac343e393d5d769863b6db4b89e4d156705ba899b536efd995
